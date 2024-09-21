@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "Noto Sans Warang Citi", sans-serif;
+    /* background-color: red; */
+}
+/* Header */
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #c6f5dd;
+}
+
+.imageLogo{
+    width: 400px;
+}
+
+.nav_link{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+}
+.nav_items a{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+    text-transform: uppercase;
+    transition: all 1.1s ease, color 1.1s ease;
+}
+.nav_items a:hover{
+    font-size: 1.2em;
+}
+.heroContainer{
+    background-color: #fff;
+    width: 100%;
+    height: 850px;
+    display: flex;
+    background-color: #1cc868;
+}
+.imgHeroContainer{
+    width: 100%;
+}
+.heroText{
+    position: absolute;
+    right: 30%;
+    bottom: 20%;
+    height: 400px;
+    
+}
+.description{
+    color: white;
+    text-align: center;
+    width: 700px;
+    margin: 100px auto;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+}
+.heroTitle{
+    color:#02bd47;
+    font-size: 12em;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(82, 212, 88, 0.7);
+}
+.heroParagraph{
+    font-size: 4em;
+    text-align: center;
+    font-weight: bold;
+    color:#02bd47;
+    text-shadow: 3px 3px 5px rgba(26,198,96,255);
+}
+
+/* Planes */
+.containerPlansAll{
+    display: flex;
+}
+
+.plans{
+    width: 450px;
+    height: 685px;
+    display: flex;
+    flex-direction: column;
+    background-color: #cff6d7;
+    border: 5px solid #515e5e50;
+    border-radius: 15px;
+}
+
+.titleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8aea8a;
+    padding: 20px 0px;
+    border-radius: 10px 10px 0px 0px;
+    height: 100px;
+
+}
+
+.titlePlans{
+    font-size: 4rem;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-shadow: 2px 2px 25px black;
+    height: 50px;
+}
+.imageTitle{
+    width: 50px;
+    height: 50px;
+}
+
+.megasContainer{
+    text-align: center;
+    line-height: 5rem;
+    background-color: #84888e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 2px #ddf1df groove;
+    box-shadow: 0px 0px 2px 2px #0fd21e;
+    padding: 10px;
+    margin: 20px auto 0px;
+}
+.megas{
+    font-size: 5rem;
+    color: white;
+}
+.textMegas{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.precioContainer{
+    margin: 0px auto;
+}
+.precioContainer h3{
+    width: 400px;
+    height: 80px;
+    margin: auto;
+    text-align: center;
+    font-size: 7rem;
+    color:#f18700;
+}
+.precioContainer p{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.containerPlans ul{
+    width: 260px;
+    margin: 0px auto;
+    padding: 10px;
+    font-weight:bold;
+    color:#616163;
+}
+
+.containerPlans ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 1.5em;
+}
+
+.containerPlans ul li img{
+    width: 30px;
+    height: 30px;
+    margin: 5px 15px;
+}
+
+.footerPlans{
+    width: 350px;
+    margin: 0px auto;
+}
+.footerPlans h2{
+    text-align: center;
+    padding: 15px;
+    color: #2A03F3;
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.footerPlans h3{
+    background-color: #0ecf1c;
+    border: 5px solid #515e5e50;
+    text-align: center;
+    width: 200px;
+    margin: 0px auto;
+    font-size: 3em;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 1.1s ease, color 1.1s ease;
+}
+.footerPlans h3:hover{
+    cursor: pointer;
+    background-color: yellow;
+    font-size: 3.5em;
+}
+.containerPlansAll{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #0a0815 1%, #0a0815 15%, #09c51a 40%, #0a0815 85%, #0a0815 10%);
+
+}
+
+.containerPlansAllTop{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.containerPlansAllBottom{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(to bottom, #12271c, #12271c 10%, #12271c);
+
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+}
+
+.logoFiber{
+    width: 300px;
+    height: 80px;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-around;
+}
+.redes img{
+    width: 40px;
+    height: 40px;
+}   
+.contact{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    color: rgb(201, 201, 201);
+}
+.contact h2{
+    font-size: 3em;
+    margin: auto;
+    text-align: start;
+}
+.containerContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.containerContact p{
+    padding: 10px;
+}
+.atention{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    color: rgb(201, 201, 201);
+}
+.atention h2{
+    padding: 20px 0px;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.atention p{
+    padding: 5px 0px;
+    font-size: 2em;
+    font-weight: bold;
+}
